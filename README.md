@@ -27,10 +27,14 @@ The app will be exchanging and storing user data using the following technologie
 | Stage | Objective | Project Activity |
 | :--- | :--- | :--- |
 | **I. Define Business Objectives** | Identify business goals, functional requirements, and compliance constraints. | Make 2–3 notes of business objectives identified from the business description. |
-| **II. Define Technical Scope** | Evaluate the architecture and prioritize high-risk technologies. | Write 2–3 sentences (40–60 words) describing why one technology is prioritized over the others. |
+| **II. Define Technical Scope** | Evaluate the architecture and prioritize high risk technologies. | Write 2–3 sentences (40–60 words) describing why one technology is prioritized over the others. |
 | **III. Decompose Application** | Map how components communicate and process data across layers. | Review the Data Flow Diagram and consider how the evaluated technologies protect user data during processes. |
 | **IV. Threat Analysis** | Identify potential threats targeting scoped technologies and data flows. | List 2 types of threats that pose risks to the information handled by the sneaker company's app. |
 | **V. Vulnerability Analysis** | Pinpoint exploitable weaknesses in the design, database, or codebase. | List 2 types of vulnerabilities that could be exploited. |
 | **VI. Attack Modeling** | Connect assets, threats, and vulnerabilities into viable exploitation paths. | Review the Attack Tree diagram and consider how threat actors can potentially exploit these attack vectors. |
 | **VII. Risk Analysis & Impact** | Select security controls to mitigate identified risks before launch. | List 4 security controls that can reduce the chances of a security incident. |
 
+ ## 📁 Repository Files
+* PASTA_Worksheet.md - Completed 7 stage PASTA threat model analysis.
+* data_flow_diagram.png — Given data flow diagram of application data handling.
+* attack_tree.png — Given attack tree diagram mapping assets, threats, and exploitation paths.
