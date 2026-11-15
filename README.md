@@ -16,7 +16,7 @@ Perform a threat model of the application using the **PASTA framework**. Go thro
 
 ### Technology Stack
 The app will be exchanging and storing user data using the following technologies:
-- Application Programming Interface (API)
-- Public Key Infrastructure (PKI)
-- SHA-256
-- Structured Query Language (SQL)
+- **Application Programming Interface (API):** Uses third-party APIs to add functionality without having to program it from scratch.
+- **Public Key Infrastructure (PKI):** Uses symmetric encryption (AES) to encrypt sensitive data (such as credit card information) and asymmetric encryption (RSA) to exchange keys between the app and a user's device.
+- **SHA-256:** Uses to protect sensitive user data, like passwords and credit card numbers.
+- **Structured Query Language (SQL):** Uses SQL to store information about the sneakers and the sellers, and to access data during a purchase.
