@@ -8,7 +8,6 @@ A company for sneaker enthusiasts and collectors is preparing to launch a mobile
 
 Perform a threat model of the application using the **PASTA framework**. Go through each of the seven stages of the framework to identify security requirements for the new sneaker company app.
 
-
 ### 📋 Business Description
 > *"Our application should seamlessly connect sellers and shoppers. It should be easy for users to sign-up, log in, and manage their accounts. Data privacy is a big concern for us. We want users to feel confident that we’re being responsible with their information.*
 >
@@ -18,9 +17,8 @@ Perform a threat model of the application using the **PASTA framework**. Go thro
 The app will be exchanging and storing user data using the following technologies:
 - **Application Programming Interface (API):** Uses third-party APIs to add functionality without having to program it from scratch.
 - **Public Key Infrastructure (PKI):** Uses symmetric encryption (AES) to encrypt sensitive data (such as credit card information) and asymmetric encryption (RSA) to exchange keys between the app and a user's device.
-- **SHA-256:** Uses to protect sensitive user data, like passwords and credit card numbers.
+- **SHA-256:** Protects sensitive user data, like passwords and credit card numbers.
 - **Structured Query Language (SQL):** Uses SQL to store information about the sneakers and the sellers, and to access data during a purchase.
-
 
 ## 📊 PASTA Framework Methodology
 
