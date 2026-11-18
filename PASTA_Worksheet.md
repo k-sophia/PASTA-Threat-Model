@@ -5,13 +5,16 @@ Completed threat modeling analysis of the **Process of Attack Simulation and Thr
 ## I. Define business and security objectives
 
 Make 2-3 notes of specific business requirements that will be analyzed.
-- Will the app process transactions?
-- Does it do a lot of back-end processing?
-- Are there industry regulations that need to be considered?
 _______
-- Buyers should directly message sellers with questions and have the ability to rate sellers to encourage good service
-- Users should have several payment options 
-- Proper payment handling is important to avoid legal issues
+
+**Will the app process transactions?**
+- The app provides several payment options for checkout.
+
+**Does it do a lot of back-end processing?**
+- The app handles high-volume database queries for sneaker listings, user accounts, and real-time messaging.
+
+**Are there industry regulations that need to be considered?**
+- PCI-DSS must be considered because the application handles credit card and payment data.
 
 ## II. Define the technical scope
 
