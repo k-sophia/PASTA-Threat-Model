@@ -19,14 +19,14 @@ _______
 ## II. Define the technical scope
 
 List of technologies used by the application:
-- Application programming interface (API)
-- Public key infrastructure (PKI)
+- Application Programming Interface (API)
+- Public Key Infrastructure (PKI)
 - SHA-256
 - SQL
 
-Write 2-3 sentences (40-60 words) that describe why you choose to prioritize that technology over the others.
+Write 2-3 sentences (40-60 words) that describe why one technology is prioritized over the others.
 _______
-Prioritize SQL for proper payment handling and avoidance of SQL injection to prevent legal issues and data manipulation or theft. SQL directly interferes in the database that contains sensitive customer and seller information, including PII and transaction records. To ensure business regulatory compliance is met, this technology should be prioritized.
+Prioritize SQL for proper payment handling and avoidance of SQL injection to prevent legal issues and data manipulation or theft. SQL directly interacts with the database that contains sensitive customer and seller information, including PII and transaction records. To ensure business regulatory compliance (PCI-DSS) is met, this technology should be prioritized.
 
 ## III. Decompose application
 
