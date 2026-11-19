@@ -35,10 +35,15 @@ Prioritize SQL for proper payment handling and avoidance of SQL injection to pre
 ## IV. Threat analysis
 
 List 2 types of threats in the PASTA worksheet that are risks to the information being handled by the application.
-- What are the internal threats?
-- What are the external threats?
 _______
-SQL Injection and Unauthorized API access 
+- SQL Injection
+- Unauthorized API Access
+
+**What are the internal threats?**
+- Internal threats originate within the organization with unintentional or malicious intentions. Examples include current or former employees misusing their privileges, or negligence. The result can be a compromised system or a vulnerability, such as an API allowing unauhtorized access.
+
+**What are the external threats?**
+- External threats originate outside the organizaiton. External attackers do not have authorized access to the application and must find a vulnerbaility to exploit. Examples include phishing, ransomware, and SQL Injection.
 
 ## V. Vulnerability analysis
 
