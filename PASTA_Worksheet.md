@@ -78,5 +78,5 @@ List 4 security controls that you’ve learned about that can reduce risk.
 _______
 - Password policy
 - Principle of least privilege
-- SHA-256
+- Parameterized queries
 - Incident response procedures
