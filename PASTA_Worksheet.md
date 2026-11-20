@@ -48,11 +48,25 @@ _______
 ## V. Vulnerability analysis
 
 List 2 vulnerabilities in the PASTA worksheet that could be exploited.
-- Could there be things wrong with the codebase?
-- Could there be weaknesses in the database?
-- Could there be flaws in the network?
 _______
-Lack of prepared statements and Broken API token
+- Lack of prepared statements
+- Broken API token
+
+**Could there be things wrong with the codebase?**
+- Codebase flaws come from how the application code is written and can directly introduce vulnerabilities. Examples include:
+    - Passing raw user input straight into SQL queries instead of using prepared statements
+    - Returning raw/detailed database error messages that reveal the database structure, such as table or column names
+    - Failing to validate API tokens and user permissions on endpoints
+
+**Could there be weaknesses in the database?**
+- Database weaknesses come from how the database is configured or how it executes queries. Examples include:
+    - Users or roles with database permissions having excessive privileges instead of least privilege
+    - Running dynamic queries without parameterization, allowing unauthorized data manipulation
+
+**Could there be flaws in the network?**
+- Network flaws relate to how data and authentication tokens travel across the network. For API traffic, this includes:
+    - Weak transport encryption, which allows an unauthorized actor to intercept and replay tokens in transit to impersonate a valid user
+    - Missing rate limits, which allow attackers to send automated, high volume requests at an unrestricted pace
 
 ## VI. Attack modeling
 
