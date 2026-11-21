@@ -76,7 +76,7 @@ _______
 
 List 4 security controls that you’ve learned about that can reduce risk.
 _______
-- Password policy
-- Principle of least privilege
-- Parameterized queries
-- Incident response procedures
+- **Password policy:** Enforces strong credentials to help protect accounts against unauthorized access.
+- **Principle of least privilege:** Restricts permissions to only what is necessary for a user or role. 
+- **Parameterized queries:** Uses prepared statements to prevent SQL injection.
+- **Incident response procedures:** Defines a clear plan for certain scenarios to reduce impact if an incident occurs, such as SQL injection or unauthorized API access.
