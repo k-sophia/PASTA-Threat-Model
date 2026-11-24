@@ -32,6 +32,8 @@ Prioritize SQL for proper payment handling and avoidance of SQL injection to pre
 
 ![PASTA Data Flow Diagram](./data_flow_diagram.png)
 
+*Note: The diagram is provided by the course*
+
 ## IV. Threat analysis
 
 List 2 types of threats in the PASTA worksheet that are risks to the information being handled by the application.
